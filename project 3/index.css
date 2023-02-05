@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Red Rose", cursive;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./bg.png);
+    height: 100vh;
+}
+
+header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0px 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.logo {
+    height: 30px;
+}
+
+header button {
+    border-radius: 15px;
+    padding: 10px 40px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.43);
+    color: yellow;
+    cursor: pointer;
+}
+
+/* --------------------------main */
+main h2 {
+    font-size: 100px;
+    color: #fff000;
+    text-align: center;
+    align-content: center;
+    margin-top: 11rem;
+}
+
+main button {
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(17, 4, 4, 0.456);
+    color: yellow;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+footer img {
+    height: 90px;
+    float: right;
+    margin-top: 3.7rem;
+    margin-left: 1rem;
+}

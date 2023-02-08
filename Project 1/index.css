@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 10px 50px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+nav div img {
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 0%;
+    top: 0%;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.64);
+    color: black;
+    border: none;
+
+}
+
+button:hover {
+    background-color: red;
+}
+
+input {
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.search {}
+
+/* __________________________________section */
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px;
+}
+
+section h3 {
+    font-size: 4rem;
+}
+
+section p {
+    font-size: 1.7rem;
+}
+
+section p span {
+    color: red;
+}
+
+section h3 span {
+    color: red;
+}
+
+.icons i {
+    padding: 0px 20px;
+    margin: 20px 2px;
+}
+
+section div img {
+    height: 200px;
+    border-radius: 200px;
+}
+
+/* --------------------------------footer */
+
+footer p {
+    text-align: center;
+    color: gray;
+}

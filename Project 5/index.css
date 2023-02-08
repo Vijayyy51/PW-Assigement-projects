@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./bg.png);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 10px 20px;
+}
+
+nav img {
+    height: 40px;
+    cursor: pointer;
+
+}
+
+
+.line {
+    border-right: 3px solid white;
+    height: 50px;
+    width: 5px;
+    background-color: white;
+    margin-left: -384px;
+
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 50px;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+ul li a:hover {
+    color: rgb(154, 29, 154);
+    transition: ;
+}
+
+nav button {
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.77);
+    color: rgb(154, 29, 154);
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main {
+    align-items: center;
+    /* margin: auto auto; */
+    margin: 300px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+main h2 {
+    font-size: 70px;
+    text-transform: capitalize;
+}
+
+main p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+main button {
+    margin-top: 30px;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: rgba(24, 22, 22, 0.593);
+    color: violet;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}

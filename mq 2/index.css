@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #111827;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 30px 30px;
+
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav img {
+    float: right;
+    height: 30px;
+    display: none;
+}
+
+/* hero----------------- */
+
+.hero {
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.left-hero {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.intro {
+    display: flex;
+    gap: 8px;
+}
+
+.left-hero img {
+    height: 20px;
+    width: 20px;
+    display: inline;
+}
+
+.left-hero h3 {
+    font-size: 1.5rem;
+}
+
+.left-hero h2 {
+    font-size: 2.9rem;
+}
+
+span {
+    font-size: 1.6rem;
+    color: yellow;
+    font-weight: 600;
+}
+
+.right-hero {
+    width: 60%;
+}
+
+.right-hero img {
+    width: 100%;
+}
+
+
+.bottom-hero {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.h-d-u {
+    height: 3px;
+    background-color: blue;
+    width: 80px;
+    margin: 0px auto;
+    margin-top: 2px;
+    border-radius: 200px;
+}
+
+/* below hero */
+.bh {
+    margin: 50px 0px;
+}
+
+/* photoes--------------------- */
+.photoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photoes img {
+    width: 20vw;
+}
+
+.photoes p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* img[alt="project-image"] {
+    width: 20vw;
+} */
+
+
+/* below-photes------------------------ */
+
+.below-photes {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.h-d-b {
+    height: 3px;
+    background-color: blue;
+    width: 100px;
+    margin: 0px auto;
+    margin-top: 2px;
+    border-radius: 200px;
+}
+
+/* footer----------- */
+footer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+footer img {
+    height: 30px;
+}
+
+/* media queries---------------------------- */
+
+@media screen and (max-width: 576px) {
+    nav ul {
+        display: none;
+    }
+
+    nav img {
+        display: block;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-hero {
+        text-align: center;
+    }
+
+    .photoes {
+        grid-template-columns: 1fr;
+    }
+
+    .photoes img {
+        width: 60vw;
+    }
+
+    /* footer {
+        margin-top: 500px;
+    } */
+
+    .below-photes {
+        margin-top: 520px;
+    }
+}
